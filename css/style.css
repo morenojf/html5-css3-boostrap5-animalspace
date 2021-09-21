@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@300&display=swap');
+
+*{
+    font-family: 'Gluten', cursive;
+}
+
+header nav div a img{
+    height: 40px;
+}
+
+p{
+    padding: 5px;
+    margin: 5px;
+}
+.cards{
+    width: 18rem;
+}
+
+#home nav div a img{
+    height: 70px;
+    width:  70px;
+
+}
+
+#happyclients div div article{
+    padding: 10px;
+}
+
+#happyclients div div article img{
+    width: 200px;
+    height:200px;
+    border-radius:100px;
+    border-style: groove;
+    
+}
+
+#happyclients div div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#happyclients{
+    padding: 30px;
+    color: black;
+    text-align: center;
+}
+
+
+#services{
+ padding: 20px;
+
+}
+
+.bg-gray{
+ background-color: rgba(128, 128, 128, 0.575);
+}
+
+
+#services div div div img{
+    height: 400px;
+    width: 100%;
+    border-style: solid;
+    border-color: black;
+
+}
+#contact div label{
+    background: #000;
+    color: #fff;
+
+}
+
+#contact {
+    background: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+#contact p {
+  text-align:justify ;
+}
+
+
+
+
+@media (min-width: 320px) {
+
+    *{
+        font-size: 13px ;
+        
+    }
+    #card-icons div div p{
+        font-size: 7px;
+        
+    }
+    #card-icons div div div i{
+        font-size: 10px;
+        padding: 10px;
+        background-color: #39c0ed;
+        border-style: solid;
+        border-color: black;
+        color: #fff;
+        border-radius: 5px;
+        
+    }
+    
+    #rights p{
+        font-size: 9px;
+    }
+    #rights a{
+        font-size: 9px;
+    }
+
+}
+
+@media (min-width: 339px) {
+
+    *{
+        font-size: 13px ;
+        
+    }
+    #card-icons div div p{
+        font-size: 8px;
+        
+    }
+    #card-icons div div div i{
+        font-size: 10px;
+        padding: 10px;
+        background-color: #39c0ed;
+        border-style: solid;
+        border-color: black;
+        color: #fff;
+        border-radius: 5px;
+    }
+    #rights p{
+        font-size:11px;
+    }
+    #rights a{
+        font-size:11px;
+    }
+}
+
+@media (min-width: 576px) {
+
+    *{
+        font-size: 18px ;
+    }
+
+    #card-icons div div p{
+        font-size: 17px;
+        
+    }
+
+    #card-icons div div div i{
+        font-size: 20px;
+        padding: 10px;
+        background-color: #39c0ed;
+        border-style: solid;
+        border-color: black;
+        color: #fff;
+        border-radius: 5px;
+    }
+
+    #rights p{
+        font-size: 13px;
+    }
+    #rights a{
+        font-size: 13px;
+        }
+}
+
+@media (min-width: 768px) {
+
+    *{
+        font-size: 18px ;
+    }
+    #card-icons div div p{
+        font-size: 20px;
+        
+    }
+    #card-icons div div div i{
+        font-size: 30px;
+        padding: 10px;
+        background-color: #39c0ed;
+        border-style: solid;
+        border-color: black;
+        color: #fff;
+        border-radius: 5px;
+    }
+    #rights p{
+        font-size:15px;
+    }
+    #rights a{
+        font-size: 15px;
+        }
+ }
+
+@media (min-width: 992px) {
+
+    *{
+        font-size: 20px;
+    }
+    #card-icons div div p{
+        font-size: 23px;
+        
+    }
+    #card-icons div div div i{
+        font-size: 40px;
+        padding: 10px;
+        background-color: #39c0ed;
+        border-style: solid;
+        border-color: black;
+        color: #fff;
+        border-radius: 5px;
+    }
+    #rights p{
+        font-size:17px;
+    }
+    #rights a{
+        font-size: 17px;
+        }
+ }
+
+@media (min-width: 1200px) {
+    
+    *{
+        font-size: 1rem;
+    }
+    #card-icons div div div i{
+        font-size: 50px;
+        padding: 10px;
+        background-color: #39c0ed;
+        border-style: solid;
+        border-color: black;
+        color: #fff;
+        border-radius: 5px;
+    }
+    #rights p{
+        font-size:19px;
+    }
+    #rights a{
+        font-size: 19px;
+        }
+
+ }
+
